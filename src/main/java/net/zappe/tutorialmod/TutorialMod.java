@@ -1,4 +1,4 @@
-package net.zappe.tutorialmod;
+package net.zappe;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
@@ -15,7 +15,7 @@ import org.slf4j.Logger;
 @Mod(TutorialMod.MOD_ID)
 public class TutorialMod
 {
-  
+
     public static final String MOD_ID = "tutorialmod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
@@ -23,7 +23,7 @@ public class TutorialMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(modEventBus)
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
