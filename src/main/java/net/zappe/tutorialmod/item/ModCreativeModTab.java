@@ -11,10 +11,10 @@ public class ModCreativeModTab {
         }
     };
 
-    public static final CreativeModeTab TUTORIAL_TAB = new CreativeModeTab("tutorialtab") {
+    public static final CreativeModeTab TUTORIAL_TAB_2 = new CreativeModeTab("tutorialtab_2") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.ZIRCON.get());
         }
-    }
+    };
 }

@@ -2,5 +2,12 @@
   "item.tutorialmod.zircon": "Zircon",
   "item.tutorialmod.siriusmart": "Siriusmart",
 
-  "itemGroup.tutorialtab": "Item Tutorial Tab"
+  "block.tutorialmod.zircon_block": "Block of Zircon",
+  "block.tutorialmod.zircon_ore": "Block of Lebron James",
+  "block.tutorialmod.deepslate_zircon_ore": "Block of ??? idk",
+
+  "itemGroup.tutorialtab": "Item Tutorial Tab",
+  "itemGroup.tutorialtab_2": "Lebron James",
+
+
 }
